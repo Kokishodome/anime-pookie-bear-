@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('jjk.jpg');
+    background-size: cover;
+    font-family: "Alfa Slab One", serif;
+}
+
+#blackScreen {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.844),transparent);
+    position: fixed;
+    z-index: -1;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    margin-bottom: 100px;
+}
+
+#logo {
+    color: rgb(255, 129, 169);
+}
+
+#logo span {
+    background-color: rgb(255, 129, 169);
+    color: rgb(35, 34, 34);
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+a {
+    font-family: "Alfa Slab One", serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a {
+    color: white;
+    padding: 5px 10px;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
+}
+
+nav button {
+    height: 40px;
+    width: 70px;
+    background-image: url('search.svg');
+    background-color: rgba(255, 255, 255, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-left: 1px solid white;
+}
+
+nav a:hover {
+    border-bottom: 1px solid white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 60px;
+}
+
+p {
+    color: white;
+    padding: 10px 0;
+    padding-bottom: 10px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+      font-family: "Alfa Slab One", serif;
+      color: white;
+      background-color: rgba(255, 192, 203, 0);
+      backdrop-filter: blur(30px);
+      -webkit-backdrop-filter: blur(30px);
+      border: 2px solid rgb(255, 255, 255);
+      border-radius: 10px;
+      font-weight: normal;
+          transition: 0.67s;
+}
+
+button:hover {
+    border: 2px solid transparent;
+    background-color: rgb(255, 129, 169);
+    cursor: pointer;
+}
+
+.arrows {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+/* #description span {
+    background-color: yellow;
+} */
+
