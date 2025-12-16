@@ -123,3 +123,11 @@ button:hover {
     object-position: top;
     transition: 0.3s;
 }
+
+#posters img{
+    height: 200px;
+}
+
+#posters {
+    display: flex;
+}
