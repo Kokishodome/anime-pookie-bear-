@@ -64,6 +64,8 @@ nav button {
     background-position: center;
     border: none;
     border-left: 1px solid white;
+    backdrop-filter: none;
+    border-radius: 0%;
 }
 
 nav a:hover {
@@ -122,12 +124,19 @@ button:hover {
     object-fit: cover;
     object-position: top;
     transition: 0.3s;
+    filter: brightness(0.67);
 }
 
 #posters img{
     height: 200px;
+    transition: 1s;
+    filter: brightness(0.5);
 }
 
 #posters {
     display: flex;
+}
+
+#posters .active {
+    filter: brightness(1);
 }
